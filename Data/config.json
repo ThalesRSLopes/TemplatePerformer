@@ -1,0 +1,53 @@
+﻿{
+	"OrchestratorQueueName":{
+		"Value":"QueueName",
+		"Description":"Nome da fila de processamento"
+	},
+	"OrchestratorQueueFolder":{
+		"Value":"QueueFolder",
+		"Description":"Folder do orquestrador em que se encontra a fila de processamento"
+	},
+	"logF_BusinessProcessName":{
+		"Value":"ProcessName",
+		"Description":"Nome do processo. Será utilizado na atividade Add Log Fields."
+	},
+	"MaxConsecutiveSystemExceptions":{
+		"Value":"3",
+		"Description":"Número máximo de exceções de sistema durante uma execução. Ao atingir o limite, a automação irá encerrar a execução."
+	},
+	"MaxRetryNumber":{
+		"Value":"3",
+		"Description":"Número máximo de tentativas em um mesmo item em caso de exceções de sistema."
+	},
+	"RetryNumberSetTransactionStatus":{
+		"Value":"5",
+		"Description":"Número máximo de tentativas para definir o status de um item de fila no orquestrador."
+	},
+	"RetryNumberGetTransactionItem":{
+		"Value":"5",
+		"Description":"Número máximo de tentativas para obter um item de fila no orquestrador."
+	},
+	"ExScreenshotsFolderPath":{
+		"Value":"Data/Screenshots",
+		"Description":"Pasta local onde serão salvas as screenshots de erros de sistema."
+	},
+	"ExScreenshotsStorageBucketOrchestratorName":{
+		"Value":"Template-Dispatcher",
+		"Description":"Nome da storage bucket destinada a salvar as screenshots de erros da automação."
+	},
+	"ExScreenshotsStorageBucketOrchestratorFolder":{
+		"Value":"",
+		"Description":"Folder onde se encontra a storage bucket destinada a salvar as screenshots de erros da automação."
+	},
+	"ExScreenshotsStorageBucketPath":{
+		"Value":"ExScreenshots",
+		"Description":"Caminho da pasta onde serão salvas as screenshots de erros da automação na storage bucket."
+	},
+	"Assets":{
+		"ProcessToKill":{
+			"Value":"ProcessToKill",
+			"OrquestratorFolder":"Default",
+			"Description":""
+		}
+	}
+}
